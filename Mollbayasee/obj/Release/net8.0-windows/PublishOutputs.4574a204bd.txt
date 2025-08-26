@@ -1,0 +1,7 @@
+D:\Workspace\GitHub\Mollbayasee\Release\Mollbayasee.exe
+D:\Workspace\GitHub\Mollbayasee\Release\Mollbayasee.dll
+D:\Workspace\GitHub\Mollbayasee\Release\Mollbayasee.deps.json
+D:\Workspace\GitHub\Mollbayasee\Release\Mollbayasee.runtimeconfig.json
+D:\Workspace\GitHub\Mollbayasee\Release\Mollbayasee.pdb
+D:\Workspace\GitHub\Mollbayasee\Release\Csharplib.dll
+D:\Workspace\GitHub\Mollbayasee\Release\winTitleBar.dll
