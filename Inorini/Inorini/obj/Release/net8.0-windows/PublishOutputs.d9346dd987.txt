@@ -1,0 +1,8 @@
+D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Release\Inorini\Inorini.exe
+D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Release\Inorini\Inorini.dll
+D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Release\Inorini\Inorini.deps.json
+D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Release\Inorini\Inorini.runtimeconfig.json
+D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Release\Inorini\Inorini.pdb
+D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Release\Inorini\INIFileParser.dll
+D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Release\Inorini\Csharplib.dll
+D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Release\Inorini\winTitleBar.dll

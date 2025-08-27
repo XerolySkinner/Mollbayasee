@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Inorini": {
+      "commandName": "Project",
+      "commandLineArgs": "-getfile \"C:\\Users\\Xeroly\\Desktop\\CountDown.ini\""
+    }
+  }
+}

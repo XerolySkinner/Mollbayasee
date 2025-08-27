@@ -1,0 +1,12 @@
+[
+  {
+    "Name": "内选",
+    "Projects": [
+      {
+        "Path": "Umarejson\\Umarejson.csproj",
+        "Action": "Start",
+        "DebugTarget": "Umarejson"
+      }
+    ]
+  }
+]

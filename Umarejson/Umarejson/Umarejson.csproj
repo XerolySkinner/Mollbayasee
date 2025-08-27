@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="close.png" />
+    <None Remove="max.png" />
+    <None Remove="min.png" />
+    <None Remove="三菱电机-01.png" />
+    <None Remove="关闭.svg" />
+    <None Remove="最大化.svg" />
+    <None Remove="最小化.svg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="SharpVectors" Version="1.8.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Csharplib">
+      <HintPath>..\..\..\Csharplib\lib\Csharplib.dll</HintPath>
+    </Reference>
+    <Reference Include="winTitleBar">
+      <HintPath>..\..\..\Csharplib\lib\winTitleBar.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="三菱电机-01.png" />
+  </ItemGroup>
+
+</Project>

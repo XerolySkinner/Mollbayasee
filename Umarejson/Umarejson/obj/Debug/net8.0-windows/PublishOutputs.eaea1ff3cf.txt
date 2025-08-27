@@ -1,0 +1,14 @@
+D:\Workspace\GitHub\Umarejson\Umarejson\bin\Release\net8.0-windows\publish\Umarejson.exe
+D:\Workspace\GitHub\Umarejson\Umarejson\bin\Release\net8.0-windows\publish\Umarejson.dll
+D:\Workspace\GitHub\Umarejson\Umarejson\bin\Release\net8.0-windows\publish\Umarejson.deps.json
+D:\Workspace\GitHub\Umarejson\Umarejson\bin\Release\net8.0-windows\publish\Umarejson.runtimeconfig.json
+D:\Workspace\GitHub\Umarejson\Umarejson\bin\Release\net8.0-windows\publish\Umarejson.pdb
+D:\Workspace\GitHub\Umarejson\Umarejson\bin\Release\net8.0-windows\publish\Newtonsoft.Json.dll
+D:\Workspace\GitHub\Umarejson\Umarejson\bin\Release\net8.0-windows\publish\SharpVectors.Converters.Wpf.dll
+D:\Workspace\GitHub\Umarejson\Umarejson\bin\Release\net8.0-windows\publish\SharpVectors.Core.dll
+D:\Workspace\GitHub\Umarejson\Umarejson\bin\Release\net8.0-windows\publish\SharpVectors.Css.dll
+D:\Workspace\GitHub\Umarejson\Umarejson\bin\Release\net8.0-windows\publish\SharpVectors.Dom.dll
+D:\Workspace\GitHub\Umarejson\Umarejson\bin\Release\net8.0-windows\publish\SharpVectors.Model.dll
+D:\Workspace\GitHub\Umarejson\Umarejson\bin\Release\net8.0-windows\publish\SharpVectors.Rendering.Gdi.dll
+D:\Workspace\GitHub\Umarejson\Umarejson\bin\Release\net8.0-windows\publish\SharpVectors.Rendering.Wpf.dll
+D:\Workspace\GitHub\Umarejson\Umarejson\bin\Release\net8.0-windows\publish\SharpVectors.Runtime.Wpf.dll

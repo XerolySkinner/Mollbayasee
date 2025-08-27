@@ -1,0 +1,16 @@
+D:\Workspace\GitHub\Mollbayasee\Umarejson\Release\Umarejson.exe
+D:\Workspace\GitHub\Mollbayasee\Umarejson\Release\Umarejson.dll
+D:\Workspace\GitHub\Mollbayasee\Umarejson\Release\Umarejson.deps.json
+D:\Workspace\GitHub\Mollbayasee\Umarejson\Release\Umarejson.runtimeconfig.json
+D:\Workspace\GitHub\Mollbayasee\Umarejson\Release\Umarejson.pdb
+D:\Workspace\GitHub\Mollbayasee\Umarejson\Release\Newtonsoft.Json.dll
+D:\Workspace\GitHub\Mollbayasee\Umarejson\Release\SharpVectors.Converters.Wpf.dll
+D:\Workspace\GitHub\Mollbayasee\Umarejson\Release\SharpVectors.Core.dll
+D:\Workspace\GitHub\Mollbayasee\Umarejson\Release\SharpVectors.Css.dll
+D:\Workspace\GitHub\Mollbayasee\Umarejson\Release\SharpVectors.Dom.dll
+D:\Workspace\GitHub\Mollbayasee\Umarejson\Release\SharpVectors.Model.dll
+D:\Workspace\GitHub\Mollbayasee\Umarejson\Release\SharpVectors.Rendering.Gdi.dll
+D:\Workspace\GitHub\Mollbayasee\Umarejson\Release\SharpVectors.Rendering.Wpf.dll
+D:\Workspace\GitHub\Mollbayasee\Umarejson\Release\SharpVectors.Runtime.Wpf.dll
+D:\Workspace\GitHub\Mollbayasee\Umarejson\Release\Csharplib.dll
+D:\Workspace\GitHub\Mollbayasee\Umarejson\Release\winTitleBar.dll

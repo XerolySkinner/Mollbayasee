@@ -1,0 +1,87 @@
+{
+  "string": "Hello, World!",
+  "number": 12345,
+  "float": 123.45,
+  "boolean": true,
+  "nullValue": null,
+  "array": [
+    "item1",
+    "100",
+    100,
+    "3.14",
+    3.14,
+    "true",
+    true,
+    "null",
+    null,
+    {
+      "nestedObject": {
+        "key1": "value1",
+        "key2": 42
+      }
+    }
+  ],
+  "object": {
+    "name": "John Doe",
+    "age": 30,
+    "address": {
+      "street": "123 Main St",
+      "city": "Anytown",
+      "postalCode": "12345"
+    },
+    "friends": [
+      {
+        "name": "Alice",
+        "age": 28
+      },
+      {
+        "name": "Bob",
+        "age": 35
+      }
+    ]
+  },
+  "nestedObject": {
+    "key1": {
+      "subKey1": "subValue1",
+      "subKey2": 200
+    },
+    "key2": [
+      {
+        "subKey3": "subValue2"
+      },
+      {
+        "subKey4": 400
+      }
+    ]
+  },
+  "complexObject": {
+    "id": "complex123",
+    "nestedArray": [
+      {
+        "nestedArrayItem1": "Item 1",
+        "nestedArrayItem2": {
+          "subKey": "Sub value"
+        }
+      },
+      {
+        "nestedArrayItem1": 300,
+        "nestedArrayItem2": {
+          "subKey": 500
+        }
+      }
+    ]
+  },
+  "emptyArray": [],
+  "emptyObject": {},
+  "deeplyNested": {
+    "level1": {
+      "level2": {
+        "level3": {
+          "level4": {
+            "value": "This is a deeply nested value"
+          }
+        }
+      }
+    }
+  }
+}
