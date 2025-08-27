@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Mollbayasee"
         mc:Ignorable="d"
         
-        xmlns:csharplib="clr-namespace:Csharplib.winTitleBar;assembly=winTitleBar" 
+        xmlns:csharplib="clr-namespace:Csharplib.winTitleBar;assembly=vsResources" 
 
         
         Title="Mollbayasee" Height="108" Width="189"
@@ -17,7 +17,7 @@
     <Window.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="vsResources.xaml" />
+                <ResourceDictionary Source="file:///D:/Workspace/GitHub/Csharplib/project/vsResources/vsResources/Themes/Generic.xaml"/>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Window.Resources>
@@ -38,7 +38,7 @@
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
                 <Button Content=".Net类型dll" Click="Net类型dll_Click"/>
-                <Button Content="常规dll" Grid.Column="1" Click="Button_Click"/>
+                <Button Content="常规dll" Grid.Column="1" Click="常规dll_Click"/>
             </Grid>
             <Label x:Name="Debugtag" VerticalContentAlignment="Center" 
    Content="就绪" 

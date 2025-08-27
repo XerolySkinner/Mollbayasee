@@ -4,9 +4,11 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Umarejson" 
-        xmlns:csharplib="clr-namespace:Csharplib.winTitleBar;assembly=winTitleBar" 
         xmlns:svg="http://sharpvectors.codeplex.com/svgc/"
         mc:Ignorable="d"
+        
+                xmlns:csharplib="clr-namespace:Csharplib.winTitleBar;assembly=vsResources" 
+
         Title="JSON 编辑器" Height="661" Width="900"
         WindowStartupLocation="CenterScreen" FontFamily="Segoe UI" FontSize="16"
         Background="#FF1A1A1D" Foreground="White" WindowStyle="None" AllowsTransparency="True"
@@ -15,7 +17,7 @@
     <Window.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="vsResources.xaml" />
+                <ResourceDictionary Source="file:///D:/Workspace/GitHub/Csharplib/project/vsResources/vsResources/Themes/Generic.xaml"/>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Window.Resources>

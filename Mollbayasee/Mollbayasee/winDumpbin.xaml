@@ -6,7 +6,8 @@
         xmlns:local="clr-namespace:Mollbayasee"
         mc:Ignorable="d"
         
-                xmlns:csharplib="clr-namespace:Csharplib.winTitleBar;assembly=winTitleBar" 
+        xmlns:csharplib="clr-namespace:Csharplib.winTitleBar;assembly=vsResources" 
+
 
         Title="Mollbayasee - Dumpbin" Height="410" Width="578"
 WindowStartupLocation="CenterScreen"
@@ -16,7 +17,7 @@ Background="#FF1A1A1D" Foreground="White" WindowStyle="None" AllowsTransparency=
     <Window.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="vsResources.xaml" />
+                <ResourceDictionary Source="file:///D:/Workspace/GitHub/Csharplib/project/vsResources/vsResources/Themes/Generic.xaml"/>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Window.Resources>

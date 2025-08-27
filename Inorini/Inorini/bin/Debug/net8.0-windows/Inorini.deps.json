@@ -9,8 +9,7 @@
       "Inorini/1.0.0": {
         "dependencies": {
           "ini-parser": "2.5.2",
-          "Csharplib": "1.0.0.0",
-          "winTitleBar": "1.0.0.0"
+          "vsResources": "1.0.0.0"
         },
         "runtime": {
           "Inorini.dll": {}
@@ -24,17 +23,9 @@
           }
         }
       },
-      "Csharplib/1.0.0.0": {
+      "vsResources/1.0.0.0": {
         "runtime": {
-          "Csharplib.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "winTitleBar/1.0.0.0": {
-        "runtime": {
-          "winTitleBar.dll": {
+          "vsResources.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -55,12 +46,7 @@
       "path": "ini-parser/2.5.2",
       "hashPath": "ini-parser.2.5.2.nupkg.sha512"
     },
-    "Csharplib/1.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "winTitleBar/1.0.0.0": {
+    "vsResources/1.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

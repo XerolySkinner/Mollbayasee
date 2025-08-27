@@ -12,5 +12,4 @@ D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Release\Umarejson\SharpVectors.Model
 D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Release\Umarejson\SharpVectors.Rendering.Gdi.dll
 D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Release\Umarejson\SharpVectors.Rendering.Wpf.dll
 D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Release\Umarejson\SharpVectors.Runtime.Wpf.dll
-D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Release\Umarejson\Csharplib.dll
-D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Release\Umarejson\winTitleBar.dll
+D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Release\Umarejson\vsResources.dll

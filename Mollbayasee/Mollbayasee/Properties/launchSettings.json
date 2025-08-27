@@ -2,18 +2,22 @@
   "profiles": {
     "net": {
       "commandName": "Project",
-      "commandLineArgs": "D:\\Workspace\\GitHub\\Csharplib\\lib\\Csharplib.dll\r\n"
+      "commandLineArgs": "C:\\Users\\Xeroly\\Desktop\\Csharplib.dll\r\n"
     },
     "正常dll": {
       "commandName": "Project",
-      "commandLineArgs": "C:\\Users\\Xeroly\\Desktop\\nm\\CoolType.dll\r\n"
+      "commandLineArgs": "C:\\Users\\Xeroly\\Desktop\\cards.dll"
     },
     "空": {
       "commandName": "Project"
     },
     "json": {
       "commandName": "Project",
-      "commandLineArgs": "D:\\Workspace\\GitHub\\Paradisuface\\数据库\\设置信息\\config.json"
+      "commandLineArgs": "C:\\Users\\Xeroly\\Desktop\\config.json"
+    },
+    "ini": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Users\\Xeroly\\Desktop\\CountDown.ini"
     }
   }
 }

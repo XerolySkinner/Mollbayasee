@@ -6,8 +6,6 @@ D:\Workspace\GitHub\Mollbayasee\Inorini\Inorini\bin\Debug\net8.0-windows\Inorini
 D:\Workspace\GitHub\Mollbayasee\Inorini\Inorini\bin\Debug\net8.0-windows\Inorini.runtimeconfig.json
 D:\Workspace\GitHub\Mollbayasee\Inorini\Inorini\bin\Debug\net8.0-windows\Inorini.dll
 D:\Workspace\GitHub\Mollbayasee\Inorini\Inorini\bin\Debug\net8.0-windows\Inorini.pdb
-D:\Workspace\GitHub\Mollbayasee\Inorini\Inorini\bin\Debug\net8.0-windows\Csharplib.dll
-D:\Workspace\GitHub\Mollbayasee\Inorini\Inorini\bin\Debug\net8.0-windows\winTitleBar.dll
 D:\Workspace\GitHub\Mollbayasee\Inorini\Inorini\obj\Debug\net8.0-windows\MainWindow.g.cs
 D:\Workspace\GitHub\Mollbayasee\Inorini\Inorini\obj\Debug\net8.0-windows\Inorini_MarkupCompile.lref
 D:\Workspace\GitHub\Mollbayasee\Inorini\Inorini\obj\Debug\net8.0-windows\MainWindow.baml
@@ -23,7 +21,8 @@ D:\Workspace\GitHub\Mollbayasee\Inorini\Inorini\obj\Debug\net8.0-windows\refint\
 D:\Workspace\GitHub\Mollbayasee\Inorini\Inorini\obj\Debug\net8.0-windows\Inorini.pdb
 D:\Workspace\GitHub\Mollbayasee\Inorini\Inorini\obj\Debug\net8.0-windows\Inorini.genruntimeconfig.cache
 D:\Workspace\GitHub\Mollbayasee\Inorini\Inorini\obj\Debug\net8.0-windows\ref\Inorini.dll
-D:\Workspace\GitHub\Mollbayasee\Inorini\Inorini\obj\Debug\net8.0-windows\vsResources.baml
 D:\Workspace\GitHub\Mollbayasee\Inorini\Inorini\bin\Debug\net8.0-windows\INIFileParser.dll
 D:\Workspace\GitHub\Mollbayasee\Inorini\Inorini\obj\Debug\net8.0-windows\wxAddItem.g.cs
 D:\Workspace\GitHub\Mollbayasee\Inorini\Inorini\obj\Debug\net8.0-windows\wxAddItem.baml
+D:\Workspace\GitHub\Mollbayasee\Inorini\Inorini\bin\Debug\net8.0-windows\vsResources.dll
+D:\Workspace\GitHub\Mollbayasee\Inorini\Inorini\bin\Debug\net8.0-windows\vsResources.pdb

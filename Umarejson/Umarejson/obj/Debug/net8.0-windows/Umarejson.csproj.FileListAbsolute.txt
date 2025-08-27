@@ -33,7 +33,6 @@ D:\Workspace\GitHub\Umarejson\Umarejson\bin\Debug\net8.0-windows\SharpVectors.Ru
 D:\Workspace\GitHub\Umarejson\Umarejson\bin\Debug\net8.0-windows\Csharplib.dll
 D:\Workspace\GitHub\Umarejson\Umarejson\bin\Debug\net8.0-windows\winTitleBar.dll
 D:\Workspace\GitHub\Mollbayasee\Umarejson\Umarejson\obj\Debug\net8.0-windows\Umarejson.csproj.AssemblyReference.cache
-D:\Workspace\GitHub\Mollbayasee\Umarejson\Umarejson\obj\Debug\net8.0-windows\vsResources.baml
 D:\Workspace\GitHub\Mollbayasee\Umarejson\Umarejson\obj\Debug\net8.0-windows\App.g.cs
 D:\Workspace\GitHub\Mollbayasee\Umarejson\Umarejson\obj\Debug\net8.0-windows\Umarejson_MarkupCompile.cache
 D:\Workspace\GitHub\Mollbayasee\Umarejson\Umarejson\obj\Debug\net8.0-windows\Umarejson.dll
@@ -53,8 +52,6 @@ D:\Workspace\GitHub\Mollbayasee\Umarejson\Umarejson\bin\Debug\net8.0-windows\Sha
 D:\Workspace\GitHub\Mollbayasee\Umarejson\Umarejson\bin\Debug\net8.0-windows\SharpVectors.Rendering.Gdi.dll
 D:\Workspace\GitHub\Mollbayasee\Umarejson\Umarejson\bin\Debug\net8.0-windows\SharpVectors.Rendering.Wpf.dll
 D:\Workspace\GitHub\Mollbayasee\Umarejson\Umarejson\bin\Debug\net8.0-windows\SharpVectors.Runtime.Wpf.dll
-D:\Workspace\GitHub\Mollbayasee\Umarejson\Umarejson\bin\Debug\net8.0-windows\Csharplib.dll
-D:\Workspace\GitHub\Mollbayasee\Umarejson\Umarejson\bin\Debug\net8.0-windows\winTitleBar.dll
 D:\Workspace\GitHub\Mollbayasee\Umarejson\Umarejson\obj\Debug\net8.0-windows\MainWindow.g.cs
 D:\Workspace\GitHub\Mollbayasee\Umarejson\Umarejson\obj\Debug\net8.0-windows\Umarejson_MarkupCompile.lref
 D:\Workspace\GitHub\Mollbayasee\Umarejson\Umarejson\obj\Debug\net8.0-windows\MainWindow.baml
@@ -67,3 +64,4 @@ D:\Workspace\GitHub\Mollbayasee\Umarejson\Umarejson\obj\Debug\net8.0-windows\Uma
 D:\Workspace\GitHub\Mollbayasee\Umarejson\Umarejson\obj\Debug\net8.0-windows\Umarejson.csproj.Up2Date
 D:\Workspace\GitHub\Mollbayasee\Umarejson\Umarejson\obj\Debug\net8.0-windows\Umarejson.genruntimeconfig.cache
 D:\Workspace\GitHub\Mollbayasee\Umarejson\Umarejson\obj\Debug\net8.0-windows\ref\Umarejson.dll
+D:\Workspace\GitHub\Mollbayasee\Umarejson\Umarejson\bin\Debug\net8.0-windows\vsResources.dll

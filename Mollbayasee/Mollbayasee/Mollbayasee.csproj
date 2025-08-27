@@ -18,11 +18,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="Csharplib">
-      <HintPath>..\..\..\Csharplib\lib\Csharplib.dll</HintPath>
-    </Reference>
-    <Reference Include="winTitleBar">
-      <HintPath>..\..\..\Csharplib\lib\winTitleBar.dll</HintPath>
+    <Reference Include="vsResources">
+      <HintPath>..\..\..\Csharplib\lib\vsResources.dll</HintPath>
     </Reference>
   </ItemGroup>
 

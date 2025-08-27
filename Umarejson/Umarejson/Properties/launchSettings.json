@@ -2,7 +2,7 @@
   "profiles": {
     "内定": {
       "commandName": "Project",
-      "commandLineArgs": "-getfile D:\\Workspace\\GitHub\\Umarejson\\template\\copx.json\r\n-mode 指令模式"
+      "commandLineArgs": "-getfile \"C:\\Users\\Xeroly\\Desktop\\config.json\"\r\n-mode 指令模式"
     },
     "外选": {
       "commandName": "Project"

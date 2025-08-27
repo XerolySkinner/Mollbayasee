@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "D:\\Workspace\\GitHub\\Mollbayasee\\Mollbayasee\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B2FED921-516E-404B-BA5E-7025ACD54A55}|Mollbayasee\\Mollbayasee.csproj|d:\\workspace\\github\\mollbayasee\\mollbayasee\\mollbayasee\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B2FED921-516E-404B-BA5E-7025ACD54A55}|Mollbayasee\\Mollbayasee.csproj|solutionrelative:mollbayasee\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B2FED921-516E-404B-BA5E-7025ACD54A55}|Mollbayasee\\Mollbayasee.csproj|d:\\workspace\\github\\mollbayasee\\mollbayasee\\mollbayasee\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2FED921-516E-404B-BA5E-7025ACD54A55}|Mollbayasee\\Mollbayasee.csproj|solutionrelative:mollbayasee\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2FED921-516E-404B-BA5E-7025ACD54A55}|Mollbayasee\\Mollbayasee.csproj|d:\\workspace\\github\\mollbayasee\\mollbayasee\\mollbayasee\\windumpbin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2FED921-516E-404B-BA5E-7025ACD54A55}|Mollbayasee\\Mollbayasee.csproj|solutionrelative:mollbayasee\\windumpbin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B2FED921-516E-404B-BA5E-7025ACD54A55}|Mollbayasee\\Mollbayasee.csproj|d:\\workspace\\github\\mollbayasee\\mollbayasee\\mollbayasee\\windumpbin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -13,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B2FED921-516E-404B-BA5E-7025ACD54A55}|Mollbayasee\\Mollbayasee.csproj|d:\\workspace\\github\\mollbayasee\\mollbayasee\\mollbayasee\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2FED921-516E-404B-BA5E-7025ACD54A55}|Mollbayasee\\Mollbayasee.csproj|solutionrelative:mollbayasee\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2FED921-516E-404B-BA5E-7025ACD54A55}|Mollbayasee\\Mollbayasee.csproj|d:\\workspace\\github\\mollbayasee\\mollbayasee\\mollbayasee\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B2FED921-516E-404B-BA5E-7025ACD54A55}|Mollbayasee\\Mollbayasee.csproj|solutionrelative:mollbayasee\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,24 +29,47 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "DockedWidth": 193,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "winDumpbin.xaml.cs",
+              "DocumentMoniker": "D:\\Workspace\\GitHub\\Mollbayasee\\Mollbayasee\\Mollbayasee\\winDumpbin.xaml.cs",
+              "RelativeDocumentMoniker": "Mollbayasee\\winDumpbin.xaml.cs",
+              "ToolTip": "D:\\Workspace\\GitHub\\Mollbayasee\\Mollbayasee\\Mollbayasee\\winDumpbin.xaml.cs",
+              "RelativeToolTip": "Mollbayasee\\winDumpbin.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T05:47:25.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\Workspace\\GitHub\\Mollbayasee\\Mollbayasee\\Mollbayasee\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Mollbayasee\\MainWindow.xaml",
+              "ToolTip": "D:\\Workspace\\GitHub\\Mollbayasee\\Mollbayasee\\Mollbayasee\\MainWindow.xaml",
+              "RelativeToolTip": "Mollbayasee\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-26T10:09:45.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "winDumpbin.xaml",
               "DocumentMoniker": "D:\\Workspace\\GitHub\\Mollbayasee\\Mollbayasee\\Mollbayasee\\winDumpbin.xaml",
               "RelativeDocumentMoniker": "Mollbayasee\\winDumpbin.xaml",
               "ToolTip": "D:\\Workspace\\GitHub\\Mollbayasee\\Mollbayasee\\Mollbayasee\\winDumpbin.xaml",
               "RelativeToolTip": "Mollbayasee\\winDumpbin.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-08-26T12:35:10.585Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-26T12:35:10.585Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "D:\\Workspace\\GitHub\\Mollbayasee\\Mollbayasee\\Mollbayasee\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "Mollbayasee\\AssemblyInfo.cs",
@@ -51,30 +78,25 @@
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-26T12:20:58.273Z"
-            },
+            }
+          ]
+        },
+        {
+          "DockedWidth": 207,
+          "SelectedChildIndex": 0,
+          "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\Workspace\\GitHub\\Mollbayasee\\Mollbayasee\\Mollbayasee\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "Mollbayasee\\MainWindow.xaml.cs",
               "ToolTip": "D:\\Workspace\\GitHub\\Mollbayasee\\Mollbayasee\\Mollbayasee\\MainWindow.xaml.cs",
               "RelativeToolTip": "Mollbayasee\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAuwH0AAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAcwEMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-26T10:09:47.775Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\Workspace\\GitHub\\Mollbayasee\\Mollbayasee\\Mollbayasee\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "Mollbayasee\\MainWindow.xaml",
-              "ToolTip": "D:\\Workspace\\GitHub\\Mollbayasee\\Mollbayasee\\Mollbayasee\\MainWindow.xaml",
-              "RelativeToolTip": "Mollbayasee\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-08-26T10:09:45.17Z"
             }
           ]
         }

@@ -3,5 +3,4 @@ D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Release\Mollbayasee.dll
 D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Release\Mollbayasee.deps.json
 D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Release\Mollbayasee.runtimeconfig.json
 D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Release\Mollbayasee.pdb
-D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Release\Csharplib.dll
-D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Release\winTitleBar.dll
+D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Release\vsResources.dll

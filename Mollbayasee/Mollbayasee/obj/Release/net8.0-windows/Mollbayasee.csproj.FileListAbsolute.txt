@@ -31,8 +31,6 @@ D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Mollbayasee\bin\Release\net8.0-windo
 D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Mollbayasee\bin\Release\net8.0-windows\Mollbayasee.runtimeconfig.json
 D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Mollbayasee\bin\Release\net8.0-windows\Mollbayasee.dll
 D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Mollbayasee\bin\Release\net8.0-windows\Mollbayasee.pdb
-D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Mollbayasee\bin\Release\net8.0-windows\Csharplib.dll
-D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Mollbayasee\bin\Release\net8.0-windows\winTitleBar.dll
 D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Mollbayasee\obj\Release\net8.0-windows\Mollbayasee.csproj.AssemblyReference.cache
 D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Mollbayasee\obj\Release\net8.0-windows\MainWindow.g.cs
 D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Mollbayasee\obj\Release\net8.0-windows\winDumpbin.g.cs
@@ -41,7 +39,6 @@ D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Mollbayasee\obj\Release\net8.0-windo
 D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Mollbayasee\obj\Release\net8.0-windows\Mollbayasee_MarkupCompile.cache
 D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Mollbayasee\obj\Release\net8.0-windows\Mollbayasee_MarkupCompile.lref
 D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Mollbayasee\obj\Release\net8.0-windows\MainWindow.baml
-D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Mollbayasee\obj\Release\net8.0-windows\vsResources.baml
 D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Mollbayasee\obj\Release\net8.0-windows\winDumpbin.baml
 D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Mollbayasee\obj\Release\net8.0-windows\Mollbayasee.g.resources
 D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Mollbayasee\obj\Release\net8.0-windows\Mollbayasee.GeneratedMSBuildEditorConfig.editorconfig
@@ -55,3 +52,4 @@ D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Mollbayasee\obj\Release\net8.0-windo
 D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Mollbayasee\obj\Release\net8.0-windows\Mollbayasee.pdb
 D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Mollbayasee\obj\Release\net8.0-windows\Mollbayasee.genruntimeconfig.cache
 D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Mollbayasee\obj\Release\net8.0-windows\ref\Mollbayasee.dll
+D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Mollbayasee\bin\Release\net8.0-windows\vsResources.dll

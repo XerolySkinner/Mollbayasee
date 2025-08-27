@@ -54,7 +54,7 @@ namespace Inorini {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Inorini;component/wxadditem.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Inorini;V1.0.0.0;component/wxadditem.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\wxAddItem.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
