@@ -1,9 +1,13 @@
-﻿using Csharplib.basic;
+﻿using Ramitta;
+using static Ramitta.lib.Basic;
+
 using Csharplib.Titlebar;
 using Microsoft.Win32;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using SharpVectors.Dom;
 using System;
+using System.Diagnostics;
 using System.IO;
 using System.Printing.IndexedProperties;
 using System.Text;
@@ -24,31 +28,33 @@ namespace Umarejson
     public partial class MainWindow : Window
     {
         string loadMode = "正常模式";
-
         private JToken? _currentJsonData = null;
-        // 在类顶部添加字段记录当前文件路径
         private string? _currentFilePath = null;
 
-
+        #region 初始化MainWindow
         public MainWindow(StartupEventArgs e)
         {
-            xsCsharplib.Startupe = xsCsharplib.ParseCommandLineArgs(e.Args);
+            Startupe = ParseCommandLineArgs(e.Args);
             InitializeComponent();
 
-            
-            if (xsCsharplib.Startupe.TryGetValue("getfile", out string filePath))
+
+            if (Startupe.TryGetValue("getfile", out string filePath))
             {
                 LoadJsonFromFile(filePath);
-                loadMode = "指令模式";
+            }
+            else
+            {
+                DebugBar(Debugtag, $"未指定操作目标", 警告橙色);
             }
 
-            if (xsCsharplib.Startupe.TryGetValue("mode", out string mode))
+            if (Startupe.TryGetValue("mode", out string mode))
             {
                 loadMode = mode;
             }
             else
             {
                 loadMode = "正常模式";
+
             }
 
             if (loadMode == "大族模式")
@@ -63,14 +69,12 @@ namespace Umarejson
                 }
 
                 LoadButton.IsEnabled = false;
-                //JsonTextBox.Visibility = Visibility.Collapsed;
-                //textsplitter.Visibility = Visibility.Collapsed;
-
             }
+            DebugBar(Debugtag, $"{loadMode} {Debugtag.Content}");
 
 
-            xsCsharplib.DebugBar(Debugtag, $"{loadMode} 加载文件: {filePath ?? "无"}", xsCsharplib.经典紫色);
         }
+        #endregion
 
         string GetJsonPath(JToken selectedToken)
         {
@@ -102,6 +106,7 @@ namespace Umarejson
             // 拼接所有路径部分
             return string.Join(".", pathParts);
         }
+
         private void AddNodeToTree(JToken token, ItemCollection items)
         {
             if (token == null) return;
@@ -165,9 +170,30 @@ namespace Umarejson
         private void RefreshTreeView()
         {
             JsonTreeView.Items.Clear();
-            AddNodeToTree(_currentJsonData, JsonTreeView.Items);
+
+            if (_currentJsonData is JObject obj)
+            {
+                var node = new TreeViewItem
+                {
+                    Header = $"主 (Object)",
+                    Tag = _currentJsonData
+                };
+                JsonTreeView.Items.Add(node);
+                AddNodeToTree(_currentJsonData, node.Items);
+            }
+            else if (_currentJsonData is JArray array)
+            {
+                var node = new TreeViewItem
+                {
+                    Header = $"主 (Array)",
+                    Tag = _currentJsonData
+                };
+                JsonTreeView.Items.Add(node);
+                AddNodeToTree(_currentJsonData, node.Items);
+            }
             JsonTextBox.Text = _currentJsonData.ToString(Formatting.Indented);
         }
+
         private string GetTypeName(JToken token)
         {
             if (token == null) return "null";
@@ -184,6 +210,7 @@ namespace Umarejson
             }
             return token.Type.ToString();
         }
+
         private bool ExpandTreeToPath(ItemCollection items, string path)
         {
             foreach (TreeViewItem item in items)
@@ -241,11 +268,11 @@ namespace Umarejson
             {
                 _currentJsonData = JToken.Parse(JsonTextBox.Text);
                 RefreshTreeView();
-                xsCsharplib.DebugBar(Debugtag, $"刷新成功", xsCsharplib.正常绿色);
+                DebugBar(Debugtag, $"刷新成功", 正常绿色);
             }
             catch (Exception ex)
             {
-                xsCsharplib.DebugBar(Debugtag, $"刷新失败: {ex.Message}", xsCsharplib.错误红色);
+                DebugBar(Debugtag, $"刷新失败: {ex.Message}", 错误红色);
             }
         }
 
@@ -261,45 +288,44 @@ namespace Umarejson
                     JsonTreeView.Items.Clear();
                     AddNodeToTree(_currentJsonData, JsonTreeView.Items);
 
-                    xsCsharplib.DebugBar(Debugtag, $"刷新成功", xsCsharplib.正常绿色);
+                    DebugBar(Debugtag, $"刷新成功", 正常绿色);
                 }
                 catch (Exception ex)
                 {
-                    xsCsharplib.DebugBar(Debugtag, $"刷新失败: {ex.Message}", xsCsharplib.错误红色);
+                    DebugBar(Debugtag, $"刷新失败: {ex.Message}", 错误红色);
                 }
             }
         }
-
-
 
         private void LoadButton_Click(object sender, RoutedEventArgs e)
         {
             AskForJsonFile();
         }
 
-        private void OpenButton_Click(object sender, RoutedEventArgs e)
+        private async void OpenButton_Click(object sender, RoutedEventArgs e)
         {
             if (File.Exists(_currentFilePath))
             {
                 try
                 {
+                    DebugBar(Debugtag, $"正在笔记本操作:{_currentFilePath}", 警告橙色);
                     // 使用 ShellExecute 方法打开文件
-                    System.Diagnostics.Process.Start("explorer.exe", _currentFilePath);
-                    xsCsharplib.DebugBar(Debugtag, $"打开:{_currentFilePath}", xsCsharplib.正常绿色);
+                    await RunExternalCommand(@"notepad.exe", _currentFilePath);
+                    LoadJsonFromFile(_currentFilePath);
                 }
                 catch (Exception ex)
                 {
-                    xsCsharplib.DebugBar(Debugtag, "无法打开文件: " + ex.Message, xsCsharplib.错误红色);
+                    DebugBar(Debugtag, "无法打开文件: " + ex.Message, 错误红色);
                 }
             }
             else
             {
-                xsCsharplib.DebugBar(Debugtag, "目标不存在！", xsCsharplib.错误红色);
+                DebugBar(Debugtag, "目标不存在！", 错误红色);
             }
         }
 
 
-
+        #region 拖动条
         // 设置初始的区域高度
         public double TopRowHeight { get; set; }
         public double BottomRowHeight { get; set; }
@@ -318,5 +344,6 @@ namespace Umarejson
                 BottomRowHeight = newBottomHeight;
             }
         }
+        #endregion
     }
 }

@@ -24,5 +24,6 @@ D:\Workspace\GitHub\Mollbayasee\Inorini\Inorini\obj\Release\net8.0-windows\ref\I
 D:\Workspace\GitHub\Mollbayasee\Inorini\Inorini\bin\Release\net8.0-windows\INIFileParser.dll
 D:\Workspace\GitHub\Mollbayasee\Inorini\Inorini\obj\Release\net8.0-windows\wxAddItem.g.cs
 D:\Workspace\GitHub\Mollbayasee\Inorini\Inorini\obj\Release\net8.0-windows\wxAddItem.baml
-D:\Workspace\GitHub\Mollbayasee\Inorini\Inorini\bin\Release\net8.0-windows\vsResources.dll
-D:\Workspace\GitHub\Mollbayasee\Inorini\Inorini\bin\Release\net8.0-windows\vsResources.pdb
+D:\Workspace\GitHub\Mollbayasee\Inorini\Inorini\obj\Release\net8.0-windows\Inorini_Content.g.cs
+D:\Workspace\GitHub\Mollbayasee\Inorini\Inorini\bin\Release\net8.0-windows\Ramitta.dll
+D:\Workspace\GitHub\Mollbayasee\Inorini\Inorini\bin\Release\net8.0-windows\Ramitta.pdb

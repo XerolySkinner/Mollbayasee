@@ -5,6 +5,8 @@ VisualStudioVersion = 17.14.36408.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Umarejson", "Umarejson\Umarejson.csproj", "{8D11368F-316E-40C0-BB56-55130FF48B13}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ramitta", "..\..\Ramitta-lib\Ramitta\Ramitta.csproj", "{C6627B60-2DEA-4A25-05D8-7687D96606D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{8D11368F-316E-40C0-BB56-55130FF48B13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D11368F-316E-40C0-BB56-55130FF48B13}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D11368F-316E-40C0-BB56-55130FF48B13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6627B60-2DEA-4A25-05D8-7687D96606D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6627B60-2DEA-4A25-05D8-7687D96606D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6627B60-2DEA-4A25-05D8-7687D96606D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6627B60-2DEA-4A25-05D8-7687D96606D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -9,8 +9,8 @@
       "Umarejson/1.0.0": {
         "dependencies": {
           "Newtonsoft.Json": "13.0.3",
-          "SharpVectors": "1.8.5",
-          "vsResources": "1.0.0.0"
+          "Ramitta": "1.0.0",
+          "SharpVectors": "1.8.5"
         },
         "runtime": {
           "Umarejson.dll": {}
@@ -60,9 +60,9 @@
           }
         }
       },
-      "vsResources/1.0.0.0": {
+      "Ramitta/1.0.0": {
         "runtime": {
-          "vsResources.dll": {
+          "Ramitta.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -90,8 +90,8 @@
       "path": "sharpvectors/1.8.5",
       "hashPath": "sharpvectors.1.8.5.nupkg.sha512"
     },
-    "vsResources/1.0.0.0": {
-      "type": "reference",
+    "Ramitta/1.0.0": {
+      "type": "project",
       "serviceable": false,
       "sha512": ""
     }

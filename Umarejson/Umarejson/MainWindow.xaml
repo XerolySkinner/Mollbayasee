@@ -7,17 +7,17 @@
         xmlns:svg="http://sharpvectors.codeplex.com/svgc/"
         mc:Ignorable="d"
         
-                xmlns:csharplib="clr-namespace:Csharplib.winTitleBar;assembly=vsResources" 
+        xmlns:Ramitta="clr-namespace:Ramitta;assembly=Ramitta" 
 
         Title="JSON 编辑器" Height="661" Width="900"
         WindowStartupLocation="CenterScreen" FontFamily="Segoe UI" FontSize="16"
-        Background="#FF1A1A1D" Foreground="White" WindowStyle="None" AllowsTransparency="True"
+        Background="#FF1A1A1D" Foreground="White" WindowStyle="None" AllowsTransparency="True" Icon="/json.png"
         >
 
     <Window.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="file:///D:/Workspace/GitHub/Csharplib/project/vsResources/vsResources/Themes/Generic.xaml"/>
+                <ResourceDictionary Source="/Ramitta;component/Generic.xaml"/>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Window.Resources>
@@ -33,7 +33,7 @@
 
 
             <!-- 自定义标题栏 -->
-            <csharplib:winTitleBar Title="{Binding Title, RelativeSource={RelativeSource AncestorType={x:Type Window}}}" Icon="{Binding Icon, RelativeSource={RelativeSource AncestorType={x:Type Window}}}"/>
+            <Ramitta:winTitleBar Title="{Binding Title, RelativeSource={RelativeSource AncestorType={x:Type Window}}}" Icon="{Binding Icon, RelativeSource={RelativeSource AncestorType={x:Type Window}}}"/>
 
 
 
@@ -60,11 +60,8 @@
 
                         <Grid Grid.Row="1">
                             <Grid.RowDefinitions>
-                                <!-- 上半部分的高度通过绑定动态调整 -->
                                 <RowDefinition Height="{Binding TopRowHeight}" />
-                                <!-- GridSplitter -->
                                 <RowDefinition Height="Auto" />
-                                <!-- 下半部分的高度通过绑定动态调整 -->
                                 <RowDefinition Height="{Binding BottomRowHeight}" />
                             </Grid.RowDefinitions>
 
@@ -75,13 +72,6 @@
                                     <Style TargetType="{x:Type TreeViewItem}">
                                         <Setter Property="IsExpanded" Value="True"/>
                                         <Setter Property="Foreground" Value="{Binding Foreground, RelativeSource={RelativeSource AncestorType={x:Type Window}}}"/>
-                                        <Setter Property="ContextMenu">
-                                            <Setter.Value>
-                                                <ContextMenu>
-                                                    <MenuItem Header="天成"/>
-                                                </ContextMenu>
-                                            </Setter.Value>
-                                        </Setter>
                                     </Style>
                                 </TreeView.Resources>
                             </TreeView>
@@ -104,9 +94,9 @@
                     <!-- JSON 功能区 -->
                     <Grid Grid.Column="1">
                         <StackPanel Orientation="Vertical">
-                            <Label Content="操作点位" FontWeight="Bold" VerticalContentAlignment="Center"/>
+                            <Label Content="操作点位" FontWeight="Bold" VerticalContentAlignment="Center" Visibility="Hidden"/>
 
-                            <StackPanel Orientation="Horizontal">
+                            <StackPanel Orientation="Horizontal" Visibility="Collapsed">
                                 <Label Content="类型:"/>
                                 <TextBlock x:Name="选中类型" Text=""/>
                             </StackPanel>
@@ -146,23 +136,24 @@
 
                                         <Label Content="值:" VerticalContentAlignment="Center"/>
                                         <TextBox x:Name="值名" Text="" Grid.Column="1" KeyDown="Enter_KeyDown" Tag="EditButton_Click"/>
-                                        <CheckBox x:Name="值字符串" Content="字符串" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Column="2" VerticalContentAlignment="Center"/>
-
                                     </Grid>
 
                                     <Grid x:Name="值类型改条">
                                         <Grid.ColumnDefinitions>
                                             <ColumnDefinition Width="Auto"/>
                                             <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="Auto"/>
                                         </Grid.ColumnDefinitions>
                                         <Label Content="值类型:"/>
                                         <Label x:Name="值类型" Grid.Column="1"/>
-                                    </Grid>
+                                        <CheckBox x:Name="值字符串" Content="字符串" VerticalContentAlignment="Center" Grid.Column="2"/>
 
-                                    <StackPanel Orientation="Horizontal">
+                                    </Grid>
+                                    <UniformGrid Rows="1" Columns="2">
                                         <Button x:Name="EditButton" Content="更改" Click="EditButton_Click" Width="80"/>
                                         <Button x:Name="DeleteButton" Content="删除" Width="80" Click="DeleteButton_Click" HorizontalContentAlignment="Center"/>
-                                    </StackPanel>
+                                    </UniformGrid>
+
 
                                 </StackPanel>
                             </Border>
@@ -214,25 +205,29 @@
                                             <ColumnDefinition Width="40px"/>
                                             <ColumnDefinition Width="*"/>
                                             <ColumnDefinition Width="Auto"/>
+
                                         </Grid.ColumnDefinitions>
 
                                         <Label Content="值:" VerticalContentAlignment="Center"/>
                                         <TextBox x:Name="添加值名" Text="" Grid.Column="1" KeyDown="Enter_KeyDown" Tag="AddButton_Click"/>
-                                        <CheckBox x:Name="添加值字符串" Content="字符串" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Column="2" IsChecked="True"/>
+
 
                                     </Grid>
+                                    <CheckBox x:Name="添加值字符串" Content="字符串" IsChecked="True" VerticalAlignment="Top" Margin="2,2,2,2" HorizontalAlignment="Right"/>
+                                    <UniformGrid Rows="1" Columns="2">
+                                        <Button Content="添加" Width="80" Click="AddButton_Click" Tag=""/>
+                                    </UniformGrid>
 
-                                    <Button x:Name="AddButton" Content="添加" Width="80" Click="AddButton_Click" HorizontalAlignment="Left"/>
                                 </StackPanel>
                             </Border>
 
-                            <Border x:Name="其他功能框" BorderBrush="#3d3d3d" BorderThickness="1,1,1,1" Padding="5,5,5,5"  Margin="0,5,0,0">
+                            <Border x:Name="其他功能框" BorderBrush="#3d3d3d" BorderThickness="1,1,1,1"  Margin="0,5,0,0">
 
                                 <UniformGrid>
-                                    <Button x:Name="LoadButton" Content="加载" Width="80" Click="LoadButton_Click" VerticalAlignment="Center"/>
-                                    <Button x:Name="RefreshButton" Content="刷新" Width="80" Click="RefreshButton_Click" VerticalAlignment="Center" Margin="0,2,2,2"/>
-                                    <Button x:Name="SaveButton" Content="保存" Width="80" Click="SaveButton_Click" VerticalAlignment="Center"/>
-                                    <Button x:Name="OpenButton" Content="打开" Width="80" Click="OpenButton_Click" VerticalAlignment="Center" Margin="0,2,2,2"/>
+                                    <Button x:Name="LoadButton" Content="加载" Click="LoadButton_Click" VerticalAlignment="Center" Margin="2,2,1,2"/>
+                                    <Button x:Name="RefreshButton" Content="刷新" Click="RefreshButton_Click" VerticalAlignment="Center" Margin="1,2,2,2"/>
+                                    <Button x:Name="SaveButton" Content="保存" Click="SaveButton_Click" VerticalAlignment="Center" Margin="2,2,1,2"/>
+                                    <Button x:Name="OpenButton" Content="打开" Click="OpenButton_Click" VerticalAlignment="Center" Margin="1,2,2,2"/>
 
                                 </UniformGrid>
                             </Border>

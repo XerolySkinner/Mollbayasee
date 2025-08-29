@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Mollbayasee"
         mc:Ignorable="d"
         
-        xmlns:csharplib="clr-namespace:Csharplib.winTitleBar;assembly=vsResources" 
+        xmlns:Ramitta="clr-namespace:Ramitta;assembly=Ramitta" 
 
 
         Title="Mollbayasee - Dumpbin" Height="410" Width="578"
@@ -17,7 +17,7 @@ Background="#FF1A1A1D" Foreground="White" WindowStyle="None" AllowsTransparency=
     <Window.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="file:///D:/Workspace/GitHub/Csharplib/project/vsResources/vsResources/Themes/Generic.xaml"/>
+                <ResourceDictionary Source="/Ramitta;component/Generic.xaml"/>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Window.Resources>
@@ -29,7 +29,7 @@ Background="#FF1A1A1D" Foreground="White" WindowStyle="None" AllowsTransparency=
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
-        <csharplib:winTitleBar Title="{Binding Title, RelativeSource={RelativeSource AncestorType={x:Type Window}}}" Icon="{Binding Icon, RelativeSource={RelativeSource AncestorType={x:Type Window}}}"/>
+        <Ramitta:winTitleBar Title="{Binding Title, RelativeSource={RelativeSource AncestorType={x:Type Window}}}" Icon="{Binding Icon, RelativeSource={RelativeSource AncestorType={x:Type Window}}}"/>
 
         <Grid Grid.Row="1">
             <Grid.ColumnDefinitions>

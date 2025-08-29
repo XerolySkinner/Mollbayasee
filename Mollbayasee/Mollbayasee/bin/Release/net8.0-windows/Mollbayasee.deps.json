@@ -8,15 +8,15 @@
     ".NETCoreApp,Version=v8.0": {
       "Mollbayasee/1.0.0": {
         "dependencies": {
-          "vsResources": "1.0.0.0"
+          "Ramitta": "1.0.0"
         },
         "runtime": {
           "Mollbayasee.dll": {}
         }
       },
-      "vsResources/1.0.0.0": {
+      "Ramitta/1.0.0": {
         "runtime": {
-          "vsResources.dll": {
+          "Ramitta.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -30,8 +30,8 @@
       "serviceable": false,
       "sha512": ""
     },
-    "vsResources/1.0.0.0": {
-      "type": "reference",
+    "Ramitta/1.0.0": {
+      "type": "project",
       "serviceable": false,
       "sha512": ""
     }

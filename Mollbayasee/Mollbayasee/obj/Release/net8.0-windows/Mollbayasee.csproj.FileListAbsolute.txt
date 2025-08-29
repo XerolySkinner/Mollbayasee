@@ -52,4 +52,5 @@ D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Mollbayasee\obj\Release\net8.0-windo
 D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Mollbayasee\obj\Release\net8.0-windows\Mollbayasee.pdb
 D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Mollbayasee\obj\Release\net8.0-windows\Mollbayasee.genruntimeconfig.cache
 D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Mollbayasee\obj\Release\net8.0-windows\ref\Mollbayasee.dll
-D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Mollbayasee\bin\Release\net8.0-windows\vsResources.dll
+D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Mollbayasee\bin\Release\net8.0-windows\Ramitta.dll
+D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Mollbayasee\bin\Release\net8.0-windows\Ramitta.pdb

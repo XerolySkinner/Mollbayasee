@@ -37,7 +37,6 @@ D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Mollbayasee\bin\Debug\net8.0-windows
 D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Mollbayasee\bin\Debug\net8.0-windows\Mollbayasee.runtimeconfig.json
 D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Mollbayasee\bin\Debug\net8.0-windows\Mollbayasee.dll
 D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Mollbayasee\bin\Debug\net8.0-windows\Mollbayasee.pdb
-D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Mollbayasee\bin\Debug\net8.0-windows\vsResources.dll
 D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Mollbayasee\obj\Debug\net8.0-windows\winDumpbin.g.cs
 D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Mollbayasee\obj\Debug\net8.0-windows\MainWindow.baml
 D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Mollbayasee\obj\Debug\net8.0-windows\winDumpbin.baml
@@ -53,4 +52,5 @@ D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Mollbayasee\obj\Debug\net8.0-windows
 D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Mollbayasee\obj\Debug\net8.0-windows\Mollbayasee.pdb
 D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Mollbayasee\obj\Debug\net8.0-windows\Mollbayasee.genruntimeconfig.cache
 D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Mollbayasee\obj\Debug\net8.0-windows\ref\Mollbayasee.dll
-D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Mollbayasee\bin\Debug\net8.0-windows\vsResources.pdb
+D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Mollbayasee\bin\Debug\net8.0-windows\Ramitta.dll
+D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Mollbayasee\bin\Debug\net8.0-windows\Ramitta.pdb

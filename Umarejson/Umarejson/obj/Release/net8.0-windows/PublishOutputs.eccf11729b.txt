@@ -12,4 +12,5 @@ D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Release\Umarejson\SharpVectors.Model
 D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Release\Umarejson\SharpVectors.Rendering.Gdi.dll
 D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Release\Umarejson\SharpVectors.Rendering.Wpf.dll
 D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Release\Umarejson\SharpVectors.Runtime.Wpf.dll
-D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Release\Umarejson\vsResources.dll
+D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Release\Umarejson\Ramitta.dll
+D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Release\Umarejson\Ramitta.pdb

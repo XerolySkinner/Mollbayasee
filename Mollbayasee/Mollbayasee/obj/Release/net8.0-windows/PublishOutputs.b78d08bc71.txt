@@ -3,4 +3,5 @@ D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Release\Mollbayasee.dll
 D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Release\Mollbayasee.deps.json
 D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Release\Mollbayasee.runtimeconfig.json
 D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Release\Mollbayasee.pdb
-D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Release\vsResources.dll
+D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Release\Ramitta.dll
+D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Release\Ramitta.pdb

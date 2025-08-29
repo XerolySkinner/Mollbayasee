@@ -62,4 +62,6 @@ D:\Workspace\GitHub\Mollbayasee\Umarejson\Umarejson\obj\Release\net8.0-windows\r
 D:\Workspace\GitHub\Mollbayasee\Umarejson\Umarejson\obj\Release\net8.0-windows\Umarejson.pdb
 D:\Workspace\GitHub\Mollbayasee\Umarejson\Umarejson\obj\Release\net8.0-windows\Umarejson.genruntimeconfig.cache
 D:\Workspace\GitHub\Mollbayasee\Umarejson\Umarejson\obj\Release\net8.0-windows\ref\Umarejson.dll
-D:\Workspace\GitHub\Mollbayasee\Umarejson\Umarejson\bin\Release\net8.0-windows\vsResources.dll
+D:\Workspace\GitHub\Mollbayasee\Umarejson\Umarejson\obj\Release\net8.0-windows\Umarejson_Content.g.cs
+D:\Workspace\GitHub\Mollbayasee\Umarejson\Umarejson\bin\Release\net8.0-windows\Ramitta.dll
+D:\Workspace\GitHub\Mollbayasee\Umarejson\Umarejson\bin\Release\net8.0-windows\Ramitta.pdb

@@ -5,17 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Inorini"
         
-        xmlns:csharplib="clr-namespace:Csharplib.winTitleBar;assembly=vsResources" 
+        xmlns:Ramitta="clr-namespace:Ramitta;assembly=Ramitta" 
 
         Title="Mollbayasee" Height="347" Width="529"
         WindowStartupLocation="CenterScreen"
-        Background="#FF1A1A1D" Foreground="White" WindowStyle="None" AllowsTransparency="True" FontFamily="Segoe UI" 
+        Background="#FF1A1A1D" Foreground="White" WindowStyle="None" AllowsTransparency="True" FontFamily="Segoe UI" Icon="/配置管理.png" 
         >
 
     <Window.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="file:///D:/Workspace/GitHub/Csharplib/project/vsResources/vsResources/Themes/Generic.xaml"/>
+                <ResourceDictionary Source="/Ramitta;component/Generic.xaml"/>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Window.Resources>
@@ -30,7 +30,7 @@
                 <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
 
-            <csharplib:winTitleBar Title="{Binding Title, RelativeSource={RelativeSource AncestorType={x:Type Window}}}" Icon="{Binding Icon, RelativeSource={RelativeSource AncestorType={x:Type Window}}}"/>
+            <Ramitta:winTitleBar Title="{Binding Title, RelativeSource={RelativeSource AncestorType={x:Type Window}}}" Icon="{Binding Icon, RelativeSource={RelativeSource AncestorType={x:Type Window}}}"/>
             <Grid Grid.Row="1">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>

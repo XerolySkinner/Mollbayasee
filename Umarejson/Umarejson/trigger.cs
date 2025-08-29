@@ -27,9 +27,12 @@ namespace Umarejson
 
             if (JsonTreeView.SelectedItem is not TreeViewItem selectedItem)return;
             var selectedToken = selectedItem.Tag as JToken;
-            if (selectedToken == null) return;
-            
+            if (selectedToken == null) {
+                选中类型.Text = "Other";
+                return;
+            }
             PathTextBox.Text = GetJsonPath(selectedToken);
+
 
             string parentType = "Other";
 
@@ -144,6 +147,10 @@ namespace Umarejson
             }
 
             选中类型.Text = parentType;
+
+            if (selectedToken == _currentJsonData) {
+                更删功能框.Visibility = Visibility.Hidden;
+            }
         }
 
         // 键盘触发

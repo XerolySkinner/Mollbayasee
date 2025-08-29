@@ -4,5 +4,5 @@ D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Release\Inorini\Inorini.deps.json
 D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Release\Inorini\Inorini.runtimeconfig.json
 D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Release\Inorini\Inorini.pdb
 D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Release\Inorini\INIFileParser.dll
-D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Release\Inorini\vsResources.dll
-D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Release\Inorini\vsResources.pdb
+D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Release\Inorini\Ramitta.dll
+D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Release\Inorini\Ramitta.pdb

@@ -8,8 +8,8 @@
     ".NETCoreApp,Version=v8.0": {
       "Inorini/1.0.0": {
         "dependencies": {
-          "ini-parser": "2.5.2",
-          "vsResources": "1.0.0.0"
+          "Ramitta": "1.0.0",
+          "ini-parser": "2.5.2"
         },
         "runtime": {
           "Inorini.dll": {}
@@ -23,9 +23,9 @@
           }
         }
       },
-      "vsResources/1.0.0.0": {
+      "Ramitta/1.0.0": {
         "runtime": {
-          "vsResources.dll": {
+          "Ramitta.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -46,8 +46,8 @@
       "path": "ini-parser/2.5.2",
       "hashPath": "ini-parser.2.5.2.nupkg.sha512"
     },
-    "vsResources/1.0.0.0": {
-      "type": "reference",
+    "Ramitta/1.0.0": {
+      "type": "project",
       "serviceable": false,
       "sha512": ""
     }

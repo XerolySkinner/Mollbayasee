@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Inorini"
         mc:Ignorable="d"
-        xmlns:csharplib="clr-namespace:Csharplib.winTitleBar;assembly=winTitleBar" 
+        xmlns:Ramitta="clr-namespace:Ramitta;assembly=Ramitta" 
 Title="Mollbayasee"
 WindowStartupLocation="CenterScreen"
 Background="#FF1A1A1D" Foreground="White" WindowStyle="None" AllowsTransparency="True" FontFamily="Segoe UI" Width="197" 
@@ -14,7 +14,7 @@ Background="#FF1A1A1D" Foreground="White" WindowStyle="None" AllowsTransparency=
     <Window.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="vsResources.xaml" />
+                <ResourceDictionary Source="/Ramitta;component/Generic.xaml" />
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Window.Resources>

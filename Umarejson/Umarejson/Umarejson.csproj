@@ -6,16 +6,21 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UseWPF>true</UseWPF>
+    <ApplicationIcon>json.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
     <None Remove="close.png" />
+    <None Remove="json.png" />
     <None Remove="max.png" />
     <None Remove="min.png" />
-    <None Remove="三菱电机-01.png" />
     <None Remove="关闭.svg" />
     <None Remove="最大化.svg" />
     <None Remove="最小化.svg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="json.ico" />
   </ItemGroup>
 
   <ItemGroup>
@@ -24,13 +29,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="vsResources">
-      <HintPath>..\..\..\Csharplib\lib\vsResources.dll</HintPath>
-    </Reference>
+    <ProjectReference Include="..\..\..\Ramitta-lib\Ramitta\Ramitta.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="三菱电机-01.png" />
+    <Resource Include="json.png" />
   </ItemGroup>
 
 </Project>

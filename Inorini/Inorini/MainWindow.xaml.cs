@@ -1,4 +1,6 @@
-﻿using Csharplib.basic;
+﻿using Ramitta;
+using static Ramitta.lib.Basic;
+
 using IniParser;
 using IniParser.Model;
 using System.Collections.ObjectModel;
@@ -32,11 +34,11 @@ namespace Inorini
 
         public MainWindow(StartupEventArgs e)
         {
-            xsCsharplib.Startupe = xsCsharplib.ParseCommandLineArgs(e.Args);
+            Startupe = ParseCommandLineArgs(e.Args);
             InitializeComponent();
             InitializeDataGrid();
 
-            if (xsCsharplib.Startupe.TryGetValue("getfile", out string filePath))
+            if (Startupe.TryGetValue("getfile", out string filePath))
             {
                 this.filepath = filePath;
                 // 创建解析器实例
@@ -52,7 +54,7 @@ namespace Inorini
                 }
 
                 //                LoadIniFromFile(filePath);
-                xsCsharplib.DebugBar(Debugtag, $"加载文件: {filePath}", xsCsharplib.正常绿色);
+                DebugBar(Debugtag, $"加载文件: {filePath}", 正常绿色);
             }
         }
 
@@ -65,12 +67,12 @@ namespace Inorini
                 {
                     var parser = new FileIniDataParser();
                     parser.WriteFile(path, data);
-                    xsCsharplib.DebugBar(Debugtag, "INI 文件已保存", xsCsharplib.正常绿色);
+                    DebugBar(Debugtag, "INI 文件已保存", 正常绿色);
                 }
             }
             catch (Exception ex)
             {
-                xsCsharplib.DebugBar(Debugtag, $"保存失败: {ex.Message}", xsCsharplib.错误红色);
+                DebugBar(Debugtag, $"保存失败: {ex.Message}", 错误红色);
             }
         }
 
@@ -157,7 +159,7 @@ namespace Inorini
         private void OnDataItemValueChanged(DataItem changedItem)
         {
             data[GetSelectedItem().ToString()][changedItem.Key] = changedItem.Value;
-            xsCsharplib.DebugBar(Debugtag, $"{GetSelectedItem().ToString()} >= {changedItem.Key}:{changedItem.Value}", xsCsharplib.警告橙色);
+            DebugBar(Debugtag, $"{GetSelectedItem().ToString()} >= {changedItem.Key}:{changedItem.Value}", 警告橙色);
         }
 
         #endregion
@@ -165,7 +167,7 @@ namespace Inorini
 
         private void DelButton_Click(object sender, RoutedEventArgs e)
         {
-            xsCsharplib.DebugBar(Debugtag, $"删除键: {GetSelectedItem().ToString()} => {NowSelectedItem.Key}", xsCsharplib.警告橙色);
+            DebugBar(Debugtag, $"删除键: {GetSelectedItem().ToString()} => {NowSelectedItem.Key}", 警告橙色);
             data[GetSelectedItem().ToString()].RemoveKey(NowSelectedItem.Key);
             flashItemChange(GetSelectedItem().ToString());
 
@@ -181,7 +183,7 @@ namespace Inorini
                 flashItemChange(GetSelectedItem().ToString());
             }
             catch (Exception ex) {
-                xsCsharplib.DebugBar(Debugtag, $"错误: {ex.Message}", xsCsharplib.错误红色);
+                DebugBar(Debugtag, $"错误: {ex.Message}", 错误红色);
             }
 
         }
@@ -201,7 +203,7 @@ namespace Inorini
 
                     // 可选：更改按钮样式或提示
                     button.ToolTip = "完成编辑";
-                    xsCsharplib.DebugBar(Debugtag, "进入编辑模式", xsCsharplib.警告橙色);
+                    DebugBar(Debugtag, "进入编辑模式", 警告橙色);
                 }
                 else
                 {
@@ -214,7 +216,7 @@ namespace Inorini
 
                     // 可选：更改按钮样式或提示
                     button.ToolTip = "编辑键值";
-                    xsCsharplib.DebugBar(Debugtag, "退出编辑模式", xsCsharplib.正常绿色);
+                    DebugBar(Debugtag, "退出编辑模式", 正常绿色);
 
                     // 可选：保存修改
                     SaveIniDataToFile(filepath);

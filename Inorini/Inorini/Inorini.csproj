@@ -6,16 +6,27 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UseWPF>true</UseWPF>
+    <ApplicationIcon>配置管理.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="配置管理.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="配置管理.ico" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="ini-parser" Version="2.5.2" />
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="vsResources">
-      <HintPath>..\..\..\Csharplib\lib\vsResources.dll</HintPath>
-    </Reference>
+    <ProjectReference Include="..\..\..\Ramitta-lib\Ramitta\Ramitta.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="配置管理.png" />
   </ItemGroup>
 
 </Project>

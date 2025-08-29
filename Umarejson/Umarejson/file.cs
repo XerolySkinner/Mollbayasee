@@ -1,4 +1,6 @@
-﻿using Csharplib.basic;
+﻿using Ramitta;
+using static Ramitta.lib.Basic;
+
 using Microsoft.Win32;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
@@ -25,7 +27,6 @@ namespace Umarejson
             if (openFileDialog.ShowDialog() == true)
             {
                 LoadJsonFromFile(openFileDialog.FileName);
-                xsCsharplib.DebugBar(Debugtag, $"加载文件: {openFileDialog.FileName}", xsCsharplib.经典紫色);
                 return openFileDialog.FileName;
             }
             else
@@ -33,6 +34,7 @@ namespace Umarejson
                 return null;
             }
         }
+
         private void SaveButton_Click(object sender, RoutedEventArgs e)
         {
             try
@@ -45,14 +47,14 @@ namespace Umarejson
                 }
                 // 直接保存到原文件
                 SaveToFile(_currentFilePath);
-                xsCsharplib.DebugBar(Debugtag, $"保存成功", xsCsharplib.正常绿色);
+                DebugBar(Debugtag, $"保存成功", 正常绿色);
                 if (loadMode == "大族模式") { 
                 Close();
                 }
             }
             catch (Exception ex)
             {
-                xsCsharplib.DebugBar(Debugtag, $"保存失败: {ex.Message}", xsCsharplib.错误红色);
+                DebugBar(Debugtag, $"保存失败: {ex.Message}", 错误红色);
             }
         }
 
@@ -67,7 +69,7 @@ namespace Umarejson
             {
                 SaveToFile(saveFileDialog.FileName);
                 _currentFilePath = saveFileDialog.FileName; // 记住当前文件路径
-                xsCsharplib.DebugBar(Debugtag, $"保存成功", xsCsharplib.正常绿色);
+                DebugBar(Debugtag, $"保存成功", 正常绿色);
             }
         }
 
@@ -83,16 +85,39 @@ namespace Umarejson
 
         private void LoadJsonFromFile(string filePath)
         {
+            JsonTreeView.Items.Clear();
+            JsonTextBox.Clear();
             try
             {
                 _currentFilePath = filePath; // 记录当前文件路径
                 string jsonText = File.ReadAllText(filePath);
+
                 _currentJsonData = JToken.Parse(jsonText);
-                RefreshTreeView();
+
+
+                // 检查当前解析的数据是否有效
+                if (_currentJsonData != null &&(
+                    _currentJsonData.Type == JTokenType.Object ||
+                    _currentJsonData.Type == JTokenType.Array)) // 简单的检查，可以根据需求调整
+                {
+                    RefreshTreeView();
+
+                    DebugBar(Debugtag, $"加载文件: {filePath}", 正常绿色);
+                }
+                else
+                {
+                    DebugBar(Debugtag, $"解析结果为空或无效: {filePath}", 错误红色);
+                }
+
+
+            }
+            catch (JsonReaderException jrex)
+            {
+                DebugBar(Debugtag, $"JSON 解析失败: {jrex.Message}", 错误红色);
             }
             catch (Exception ex)
             {
-                xsCsharplib.DebugBar(Debugtag, $"加载文件失败: {ex.Message}", xsCsharplib.错误红色);
+                DebugBar(Debugtag, $"加载文件失败: {ex.Message}", 错误红色);
             }
         }
 

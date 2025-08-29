@@ -18,9 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="vsResources">
-      <HintPath>..\..\..\Csharplib\lib\vsResources.dll</HintPath>
-    </Reference>
+    <ProjectReference Include="..\..\..\Ramitta-lib\Ramitta\Ramitta.csproj" />
   </ItemGroup>
 
   <ItemGroup>

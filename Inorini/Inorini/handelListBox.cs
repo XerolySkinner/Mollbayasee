@@ -1,4 +1,6 @@
-﻿using Csharplib.basic;
+﻿using Ramitta;
+using static Ramitta.lib.Basic;
+
 using IniParser.Model;
 using System;
 using System.Collections.Generic;

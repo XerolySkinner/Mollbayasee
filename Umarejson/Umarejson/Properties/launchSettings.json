@@ -1,15 +1,23 @@
 {
   "profiles": {
-    "内定": {
-      "commandName": "Project",
-      "commandLineArgs": "-getfile \"C:\\Users\\Xeroly\\Desktop\\config.json\"\r\n-mode 指令模式"
-    },
     "外选": {
       "commandName": "Project"
     },
     "大族模式": {
       "commandName": "Project",
       "commandLineArgs": "-getfile D:\\Workspace\\GitHub\\Umarejson\\template\\copx.json\r\n-mode 大族模式"
+    },
+    "内定Obj": {
+      "commandName": "Project",
+      "commandLineArgs": "-getfile \"C:\\Users\\Xeroly\\Desktop\\config.json\"\r\n"
+    },
+    "内定Array": {
+      "commandName": "Project",
+      "commandLineArgs": "-getfile \"C:\\Users\\Xeroly\\Desktop\\config2.json\"\r\n"
+    },
+    "牛魔": {
+      "commandName": "Project",
+      "commandLineArgs": "-getfile \"C:\\Users\\Xeroly\\Desktop\\newmore.json\"\r\n"
     }
   }
 }
