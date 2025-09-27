@@ -1,9 +1,5 @@
 {
   "profiles": {
-    "net": {
-      "commandName": "Project",
-      "commandLineArgs": "C:\\Users\\Xeroly\\Desktop\\Csharplib.dll\r\n"
-    },
     "正常dll": {
       "commandName": "Project",
       "commandLineArgs": "C:\\Users\\Xeroly\\Desktop\\cards.dll"
@@ -18,6 +14,10 @@
     "ini": {
       "commandName": "Project",
       "commandLineArgs": "C:\\Users\\Xeroly\\Desktop\\CountDown.ini"
+    },
+    "py": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Users\\Xeroly\\Desktop\\suka.py"
     }
   }
 }

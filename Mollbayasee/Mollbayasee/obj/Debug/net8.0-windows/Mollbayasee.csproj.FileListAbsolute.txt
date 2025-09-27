@@ -54,3 +54,5 @@ D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Mollbayasee\obj\Debug\net8.0-windows
 D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Mollbayasee\obj\Debug\net8.0-windows\ref\Mollbayasee.dll
 D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Mollbayasee\bin\Debug\net8.0-windows\Ramitta.dll
 D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Mollbayasee\bin\Debug\net8.0-windows\Ramitta.pdb
+D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Mollbayasee\bin\Debug\net8.0-windows\CommunityToolkit.Mvvm.dll
+D:\Workspace\GitHub\Mollbayasee\Mollbayasee\Mollbayasee\bin\Debug\net8.0-windows\Newtonsoft.Json.dll

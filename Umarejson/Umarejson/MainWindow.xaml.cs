@@ -32,11 +32,15 @@ namespace Umarejson
         private string? _currentFilePath = null;
 
         #region 初始化MainWindow
-        public MainWindow(StartupEventArgs e)
+        public MainWindow(StartupEventArgs? e=null, string[]? args=null)
         {
-            Startupe = ParseCommandLineArgs(e.Args);
-            InitializeComponent();
+            if(e!=null)
+                Startupe = ParseCommandLineArgs(e.Args);
+            if (args != null) {
+                Startupe = ParseCommandLineArgs(args);
+            }
 
+            InitializeComponent();
 
             if (Startupe.TryGetValue("getfile", out string filePath))
             {
@@ -71,8 +75,6 @@ namespace Umarejson
                 LoadButton.IsEnabled = false;
             }
             DebugBar(Debugtag, $"{loadMode} {Debugtag.Content}");
-
-
         }
         #endregion
 

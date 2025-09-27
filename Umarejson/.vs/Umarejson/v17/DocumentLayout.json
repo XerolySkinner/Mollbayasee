@@ -3,24 +3,31 @@
   "WorkspaceRootPath": "D:\\Workspace\\GitHub\\Mollbayasee\\Umarejson\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8D11368F-316E-40C0-BB56-55130FF48B13}|Umarejson\\Umarejson.csproj|d:\\workspace\\github\\mollbayasee\\umarejson\\umarejson\\file.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D11368F-316E-40C0-BB56-55130FF48B13}|Umarejson\\Umarejson.csproj|solutionrelative:umarejson\\file.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8D11368F-316E-40C0-BB56-55130FF48B13}|Umarejson\\Umarejson.csproj|d:\\workspace\\github\\mollbayasee\\umarejson\\umarejson\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{8D11368F-316E-40C0-BB56-55130FF48B13}|Umarejson\\Umarejson.csproj|solutionrelative:umarejson\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D11368F-316E-40C0-BB56-55130FF48B13}|Umarejson\\Umarejson.csproj|d:\\workspace\\github\\mollbayasee\\umarejson\\umarejson\\jsondataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D11368F-316E-40C0-BB56-55130FF48B13}|Umarejson\\Umarejson.csproj|solutionrelative:umarejson\\jsondataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8D11368F-316E-40C0-BB56-55130FF48B13}|Umarejson\\Umarejson.csproj|d:\\workspace\\github\\mollbayasee\\umarejson\\umarejson\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8D11368F-316E-40C0-BB56-55130FF48B13}|Umarejson\\Umarejson.csproj|solutionrelative:umarejson\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C6627B60-2DEA-4A25-05D8-7687D96606D6}|..\\..\\Ramitta-lib\\Ramitta\\Ramitta.csproj|d:\\workspace\\github\\ramitta-lib\\ramitta\\customwindowstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D11368F-316E-40C0-BB56-55130FF48B13}|Umarejson\\Umarejson.csproj|d:\\workspace\\github\\mollbayasee\\umarejson\\umarejson\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8D11368F-316E-40C0-BB56-55130FF48B13}|Umarejson\\Umarejson.csproj|solutionrelative:umarejson\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D11368F-316E-40C0-BB56-55130FF48B13}|Umarejson\\Umarejson.csproj|d:\\workspace\\github\\mollbayasee\\umarejson\\umarejson\\file.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D11368F-316E-40C0-BB56-55130FF48B13}|Umarejson\\Umarejson.csproj|solutionrelative:umarejson\\file.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8D11368F-316E-40C0-BB56-55130FF48B13}|Umarejson\\Umarejson.csproj|d:\\workspace\\github\\mollbayasee\\umarejson\\umarejson\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8D11368F-316E-40C0-BB56-55130FF48B13}|Umarejson\\Umarejson.csproj|solutionrelative:umarejson\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D11368F-316E-40C0-BB56-55130FF48B13}|Umarejson\\Umarejson.csproj|d:\\workspace\\github\\mollbayasee\\umarejson\\umarejson\\jsondataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D11368F-316E-40C0-BB56-55130FF48B13}|Umarejson\\Umarejson.csproj|solutionrelative:umarejson\\jsondataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8D11368F-316E-40C0-BB56-55130FF48B13}|Umarejson\\Umarejson.csproj|d:\\workspace\\github\\mollbayasee\\umarejson\\umarejson\\trigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,25 +40,25 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 210,
-          "SelectedChildIndex": 2,
+          "DockedWidth": 112,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "JsonDataAccess.cs",
-              "DocumentMoniker": "D:\\Workspace\\GitHub\\Mollbayasee\\Umarejson\\Umarejson\\JsonDataAccess.cs",
-              "RelativeDocumentMoniker": "Umarejson\\JsonDataAccess.cs",
-              "ToolTip": "D:\\Workspace\\GitHub\\Mollbayasee\\Umarejson\\Umarejson\\JsonDataAccess.cs",
-              "RelativeToolTip": "Umarejson\\JsonDataAccess.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAAUAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "file.cs",
+              "DocumentMoniker": "D:\\Workspace\\GitHub\\Mollbayasee\\Umarejson\\Umarejson\\file.cs",
+              "RelativeDocumentMoniker": "Umarejson\\file.cs",
+              "ToolTip": "D:\\Workspace\\GitHub\\Mollbayasee\\Umarejson\\Umarejson\\file.cs",
+              "RelativeToolTip": "Umarejson\\file.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T06:36:45.805Z",
+              "WhenOpened": "2025-08-25T09:04:03.911Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "trigger.cs",
               "DocumentMoniker": "D:\\Workspace\\GitHub\\Mollbayasee\\Umarejson\\Umarejson\\trigger.cs",
               "RelativeDocumentMoniker": "Umarejson\\trigger.cs",
@@ -59,31 +66,53 @@
               "RelativeToolTip": "Umarejson\\trigger.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAJcAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T00:52:51.88Z",
+              "WhenOpened": "2025-08-26T00:52:51.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "JsonDataAccess.cs",
+              "DocumentMoniker": "D:\\Workspace\\GitHub\\Mollbayasee\\Umarejson\\Umarejson\\JsonDataAccess.cs",
+              "RelativeDocumentMoniker": "Umarejson\\JsonDataAccess.cs",
+              "ToolTip": "D:\\Workspace\\GitHub\\Mollbayasee\\Umarejson\\Umarejson\\JsonDataAccess.cs",
+              "RelativeToolTip": "Umarejson\\JsonDataAccess.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T06:36:45.805Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 281,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomWindowStyle.xaml",
+              "DocumentMoniker": "D:\\Workspace\\GitHub\\Ramitta-lib\\Ramitta\\CustomWindowStyle.xaml",
+              "RelativeDocumentMoniker": "..\\..\\Ramitta-lib\\Ramitta\\CustomWindowStyle.xaml",
+              "ToolTip": "D:\\Workspace\\GitHub\\Ramitta-lib\\Ramitta\\CustomWindowStyle.xaml",
+              "RelativeToolTip": "..\\..\\Ramitta-lib\\Ramitta\\CustomWindowStyle.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-02T03:53:38.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\Workspace\\GitHub\\Mollbayasee\\Umarejson\\Umarejson\\App.xaml",
+              "RelativeDocumentMoniker": "Umarejson\\App.xaml",
+              "ToolTip": "D:\\Workspace\\GitHub\\Mollbayasee\\Umarejson\\Umarejson\\App.xaml",
+              "RelativeToolTip": "Umarejson\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-02T03:53:03.247Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "file.cs",
-              "DocumentMoniker": "D:\\Workspace\\GitHub\\Mollbayasee\\Umarejson\\Umarejson\\file.cs",
-              "RelativeDocumentMoniker": "Umarejson\\file.cs",
-              "ToolTip": "D:\\Workspace\\GitHub\\Mollbayasee\\Umarejson\\Umarejson\\file.cs",
-              "RelativeToolTip": "Umarejson\\file.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-25T09:04:03.911Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 183,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\Workspace\\GitHub\\Mollbayasee\\Umarejson\\Umarejson\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Umarejson\\MainWindow.xaml",
@@ -95,28 +124,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "D:\\Workspace\\GitHub\\Mollbayasee\\Umarejson\\Umarejson\\App.xaml.cs",
-              "RelativeDocumentMoniker": "Umarejson\\App.xaml.cs",
-              "ToolTip": "D:\\Workspace\\GitHub\\Mollbayasee\\Umarejson\\Umarejson\\App.xaml.cs",
-              "RelativeToolTip": "Umarejson\\App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwkAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T02:57:54.078Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\Workspace\\GitHub\\Mollbayasee\\Umarejson\\Umarejson\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "Umarejson\\MainWindow.xaml.cs",
               "ToolTip": "D:\\Workspace\\GitHub\\Mollbayasee\\Umarejson\\Umarejson\\MainWindow.xaml.cs",
               "RelativeToolTip": "Umarejson\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T11:54:54.299Z",
+              "WhenOpened": "2025-09-02T03:54:09.154Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\Workspace\\GitHub\\Mollbayasee\\Umarejson\\Umarejson\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Umarejson\\App.xaml.cs",
+              "ToolTip": "D:\\Workspace\\GitHub\\Mollbayasee\\Umarejson\\Umarejson\\App.xaml.cs",
+              "RelativeToolTip": "Umarejson\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T02:57:54.078Z"
             }
           ]
         }
