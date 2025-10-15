@@ -1,0 +1,93 @@
+﻿<Window x:Class="Suwatou.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Suwatou"
+        mc:Ignorable="d"
+        Height="250" Width="500"
+
+        xmlns:Ramitta="clr-namespace:Ramitta;assembly=Ramitta" 
+        BorderBrush="{Binding Background, ElementName=Debugtag}"
+        WindowStartupLocation="CenterScreen"
+        Style="{StaticResource ShellWindow}">
+    <Grid>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Label Content="转化成为ico" VerticalAlignment="Center" Margin="5"/>
+
+                    <ComboBox x:Name="icoSizeComboBox" 
+              Grid.Column="1" 
+              Margin="5" 
+              VerticalAlignment="Center"
+              IsEditable="True"
+              Text="16:16"
+              ToolTip="选择或输入图标尺寸">
+                        <ComboBoxItem>16:16</ComboBoxItem>
+                        <ComboBoxItem>32:32</ComboBoxItem>
+                        <ComboBoxItem>48:48</ComboBoxItem>
+                        <ComboBoxItem>64:64</ComboBoxItem>
+                        <ComboBoxItem>128:128</ComboBoxItem>
+                        <ComboBoxItem>256:256</ComboBoxItem>
+                    </ComboBox>
+
+                    <Button Grid.Column="2" 
+            Content="开始转换" 
+            Margin="5" 
+            Padding="8,2"
+            VerticalAlignment="Center" Click="转换成ico_Click"/>
+                </Grid>
+                <Grid Grid.Row="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Label Content="尺寸缩变:" VerticalAlignment="Center" Margin="5"/>
+
+                    <ComboBox x:Name="outSizeComboBox" 
+  Grid.Column="1" 
+  Margin="5" 
+  VerticalAlignment="Center"
+  IsEditable="True"
+  Text="16:16"
+  ToolTip="选择或输入图标尺寸">
+                        <ComboBoxItem>16:16</ComboBoxItem>
+                        <ComboBoxItem>32:32</ComboBoxItem>
+                        <ComboBoxItem>48:48</ComboBoxItem>
+                        <ComboBoxItem>64:64</ComboBoxItem>
+                        <ComboBoxItem>128:128</ComboBoxItem>
+                        <ComboBoxItem>256:256</ComboBoxItem>
+                    </ComboBox>
+
+                    <Button Grid.Column="2" 
+Content="开始转换" 
+Margin="5" 
+Padding="8,2"
+VerticalAlignment="Center" Click="尺寸缩变_Click"/>
+                </Grid>
+            </Grid>
+            <Label x:Name="Debugtag" Grid.Row="2" VerticalContentAlignment="Center" Content="就绪" Background="#FF007ACC"/>
+        </Grid>
+
+
+    </Grid>
+</Window>

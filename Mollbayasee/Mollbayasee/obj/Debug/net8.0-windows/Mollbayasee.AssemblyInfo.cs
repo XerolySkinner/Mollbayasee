@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mollbayasee")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+055971332185e57e472560e01cf77725775c4dd5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+693befd3fb0a8f32d0c21192c6bad11e18294c0d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mollbayasee")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mollbayasee")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
